@@ -1,0 +1,5 @@
+description = "Close the current branch by merging it into main and deleting it"
+
+prompt = """
+    Based on the current state, merge the active branch into main, delete the local and remote branch, and switch back to main.
+"""
