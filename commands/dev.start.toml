@@ -1,0 +1,9 @@
+description = "Start the development environment for the my-company extension"
+
+prompt = """
+    Based on the {{args}} create a git branch. Use semantic commit verbs like feat, fix, perf, etc.
+
+    Example:
+    Input: I want to add a new feature to my app
+    Output: feat/add-new-app-feature
+"""
